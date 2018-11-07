@@ -9,4 +9,5 @@ const events = require('./events')
 
 $(() => {
   $('#create-game').on('click', events.onCreateGameClick)
+  $('#not-a-game-board').on('submit', events.onMakeMove)
 })
